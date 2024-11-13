@@ -35,6 +35,6 @@ app.use("/api/v1",order)
 
 
 // Creating Port
-app.listen(process.env.port, () => {
-    console.log(`Server Started on Port ${process.env.port}`);
+app.listen(process.env.PORT, () => {
+    console.log(`Server Started on Port ${process.env.PORT}`);
 });
